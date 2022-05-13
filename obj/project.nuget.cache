@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cGsPKjQ2wQQjtr3L8/jXRD8Cq5R3L8sx6Rmn+xPj7+6uprPm9aWKg5mVx31gRclbDY4Pe6iCCFWajMZTfkLzsw==",
+  "dgSpecHash": "fvUskUkVB0FlhHiMj+y+9F6oQy9ME5SOCMMmrnS5iol7xcdlkACTg3sf0hSR8IPF0EiuPq2Lt3AR0ze/QeIYuA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\lmmns\\Bureau\\Cours yassine\\.NET\\Envahisseurs-de-l-espace\\Envahisseurs-de-l-espace.csproj",
+  "projectFilePath": "C:\\Users\\lmmns\\Bureau\\Cours yassine\\.NET\\Envahisseurs-de-l-espace\\Envahisseurs-de-l-espace.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lmmns\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\lmmns\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
