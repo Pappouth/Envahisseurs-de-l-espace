@@ -1,1 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bullet.png","C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/bullet.xnb","TextureProcessor","Texture2DContent",289,14125,0,1500768
+"C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/ship.png","C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/ship.xnb","TextureProcessor","Texture2DContent",27079,293525,0,0117327
+"C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/spaceship grand.png","C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/spaceship grand.xnb","TextureProcessor","Texture2DContent",2426,470849,0,0145774
+"C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/spaceship.png","C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/spaceship.xnb","TextureProcessor","Texture2DContent",10223,123285,0,0067036

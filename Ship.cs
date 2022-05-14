@@ -1,3 +1,4 @@
+using System.Drawing;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -8,10 +9,12 @@ namespace Envahisseurs_de_l_espace
     {
         // Attributs
         public Bullet _bullet;
+        public Texture2D _bulletTexture;
 
         // Constructeur
-        public Ship(Texture2D Texture, float Speed): base(Texture, Speed)
+        public Ship(Texture2D SpriteTexture, float Speed, Vector2 Position, Texture2D BulletTexture): base(SpriteTexture, Speed, Position)
         {
+            _bulletTexture = BulletTexture;
         }
 
         // Méthodes
@@ -36,16 +39,17 @@ namespace Envahisseurs_de_l_espace
             }
 
             // tir bullet
-            if (Keyboard.GetState().IsKeyDown(Keys.Space))
+            if (Keyboard.GetState().IsKeyUp(Keys.Space))
             {
-                addBullet();
+                shotBullet();
             }
         }
 
-        public void addBullet()
+        public void shotBullet()
         {
-            var boullette = _bullet.Clone() as Bullet;
-            boullette._position = this._position;
+            // _bullet._position.X = this._position.X + this._texture.Width;
+            _bullet = new Bullet(this._bulletTexture, 10f, this._position, this);
+            this._bullet.Update();
         }
     }
 }

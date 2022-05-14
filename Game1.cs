@@ -9,6 +9,7 @@ namespace Envahisseurs_de_l_espace
         private SpriteBatch _spriteBatch;
     
         private Ship _ship;
+        private Bullet _bullet;
 
         public Game1()
         {
@@ -36,9 +37,8 @@ namespace Envahisseurs_de_l_espace
             var shipTexture = Content.Load<Texture2D>("spaceship");
             var bulletTexture = Content.Load<Texture2D>("bullet");
 
-            _ship = new Ship(shipTexture, 5f);          
-            _ship._bullet = new Bullet(bulletTexture, 10f);
-            _ship._position = new Vector2(100,100);
+            Vector2 shipPos = new Vector2(100, 100);
+            _ship = new Ship(shipTexture, 5f, shipPos, bulletTexture);
         }
 
         protected override void Update(GameTime gameTime)
@@ -47,7 +47,10 @@ namespace Envahisseurs_de_l_espace
             //     Exit();
 
             _ship.Update();
-            _ship._bullet.Update();
+            if (_ship._bullet != null)
+            {
+                _ship._bullet.Update();
+            }
 
             // TODO: Add your update logic here
 
@@ -61,6 +64,10 @@ namespace Envahisseurs_de_l_espace
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
             _ship.Draw(_spriteBatch);
+            if (_ship._bullet != null)
+            {
+                _ship._bullet.Draw(_spriteBatch);
+            }
             _spriteBatch.End();
 
             base.Draw(gameTime);
