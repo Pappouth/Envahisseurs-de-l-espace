@@ -10,6 +10,7 @@ namespace Envahisseurs_de_l_espace
         // Attributs
         public Bullet _bullet;
         public Texture2D _bulletTexture;
+        private Vector2 _bulletPosition;
 
         // Constructeur
         public Ship(Texture2D SpriteTexture, float Speed, Vector2 Position, Texture2D BulletTexture): base(SpriteTexture, Speed, Position)
@@ -39,7 +40,7 @@ namespace Envahisseurs_de_l_espace
             }
 
             // tir bullet
-            if (Keyboard.GetState().IsKeyUp(Keys.Space))
+            if (Keyboard.GetState().IsKeyDown(Keys.Space))
             {
                 shotBullet();
             }
@@ -47,8 +48,10 @@ namespace Envahisseurs_de_l_espace
 
         public void shotBullet()
         {
-            // _bullet._position.X = this._position.X + this._texture.Width;
-            _bullet = new Bullet(this._bulletTexture, 10f, this._position, this);
+            var bulletPositionX = this._position.X + this._texture.Width/2 - this._bulletTexture.Width/2;
+            var bulletPositionY = this._position.Y /*- this._bulletTexture.Height*/;
+            _bulletPosition = new Vector2(bulletPositionX, bulletPositionY);
+            _bullet = new Bullet(this._bulletTexture, 10f, this._bulletPosition);
             this._bullet.Update();
         }
     }
