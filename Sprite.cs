@@ -1,4 +1,4 @@
-using System;
+using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -17,7 +17,7 @@ namespace Envahisseurs_de_l_espace
             _position = Position;
         }
 
-        public virtual void Update()
+        public virtual void Update(List<Sprite> sprites)
         {
 
         }

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -10,7 +11,7 @@ namespace Envahisseurs_de_l_espace
             
         }
 
-        public override void Update()
+        public override void Update(List<Sprite> sprites)
         {
             _position.Y -= _speed;
         }

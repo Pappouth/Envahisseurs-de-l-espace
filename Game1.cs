@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.Collections.Generic;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace Envahisseurs_de_l_espace
@@ -10,6 +11,8 @@ namespace Envahisseurs_de_l_espace
     
         private Ship _ship;
         private Bullet _bullet;
+
+        private List<Sprite> _bulletsList =  new List<Sprite>();
 
         public Game1()
         {
@@ -46,10 +49,10 @@ namespace Envahisseurs_de_l_espace
             // if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             //     Exit();
 
-            _ship.Update();
-            if (_ship._bullet != null)
+            _ship.Update(_bulletsList);
+            foreach (var bullet in _bulletsList)
             {
-                _ship._bullet.Update();
+                bullet.Update(_bulletsList);
             }
 
             // TODO: Add your update logic here
@@ -64,9 +67,9 @@ namespace Envahisseurs_de_l_espace
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
             _ship.Draw(_spriteBatch);
-            if (_ship._bullet != null)
+            foreach (var bullet in _bulletsList)
             {
-                _ship._bullet.Draw(_spriteBatch);
+                bullet.Draw(_spriteBatch);
             }
             _spriteBatch.End();
 
