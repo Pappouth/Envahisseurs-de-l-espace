@@ -6,14 +6,23 @@ namespace Envahisseurs_de_l_espace
 {
     public class Bullet: Sprite
     {
-        public Bullet(Texture2D SpriteTexture, float Speed, Vector2 Position): base(SpriteTexture, Speed, Position)
+        public Ship _ship;
+
+        public Bullet(Texture2D SpriteTexture, float Speed, Vector2 Position, Ship Ship): base(SpriteTexture, Speed, Position)
         {
-            
+            _ship = Ship;
         }
 
         public override void Update(List<Sprite> sprites)
         {
-            _position.Y -= _speed;
+            if (_ship.GetType() == typeof(Player))
+            {
+                _position.Y -= _speed;
+            }
+            else if (_ship.GetType() == typeof(Ennemy))
+            {
+                _position.Y += _speed;
+            }
         }
         public override void Draw(SpriteBatch spriteBatch)
         {

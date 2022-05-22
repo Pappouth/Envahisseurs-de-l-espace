@@ -4,12 +4,14 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bullet.png</File>
-    <File>c:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/ship.png</File>
-    <File>c:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/spaceship grand.png</File>
-    <File>c:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/spaceship.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bullet.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/ennemy bullet.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/ennemy.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/ship.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/spaceship.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

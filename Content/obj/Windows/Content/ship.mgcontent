@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/ship.png</SourceFile>
+  <SourceFile>C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/ship.png</SourceFile>
   <SourceTime>2022-05-13T16:42:30.9414184+02:00</SourceTime>
-  <DestFile>c:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/ship.xnb</DestFile>
-  <DestTime>2022-05-20T16:09:34.5458447+02:00</DestTime>
+  <DestFile>C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/ship.xnb</DestFile>
+  <DestTime>2022-05-22T14:29:54.4786632+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

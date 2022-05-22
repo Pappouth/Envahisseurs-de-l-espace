@@ -9,8 +9,8 @@ namespace Envahisseurs_de_l_espace
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
     
-        private Ship _ship;
-        private Bullet _bullet;
+        private Player _playerShip;
+        private Ennemy _ennemyShip;
 
         private List<Sprite> _bulletsList =  new List<Sprite>();
 
@@ -27,21 +27,24 @@ namespace Envahisseurs_de_l_espace
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            
+            // PLAYER
+            var playerShipTexture = Content.Load<Texture2D>("spaceship");
+            var playerBulletTexture = Content.Load<Texture2D>("bullet");
+            Vector2 playerShipPos = new Vector2(100, 100);
+            _playerShip = new Player(playerShipTexture, 5f, playerShipPos, playerBulletTexture);
 
-            // TODO: use this.Content to load your game content here
-            var shipTexture = Content.Load<Texture2D>("spaceship");
-            var bulletTexture = Content.Load<Texture2D>("bullet");
-
-            Vector2 shipPos = new Vector2(100, 100);
-            _ship = new Ship(shipTexture, 5f, shipPos, bulletTexture);
+            // ENNEMY
+            var ennemyShipTexture = Content.Load<Texture2D>("ennemy");
+            var ennemyBulletTexture = Content.Load<Texture2D>("ennemy bullet");
+            Vector2 ennemyShipPos = new Vector2(200, 200);
+            _ennemyShip = new Ennemy(ennemyShipTexture, 5f, ennemyShipPos, ennemyBulletTexture);
         }
 
         protected override void Update(GameTime gameTime)
@@ -49,13 +52,13 @@ namespace Envahisseurs_de_l_espace
             // if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             //     Exit();
 
-            _ship.Update(_bulletsList);
+            _playerShip.Update(_bulletsList);
             foreach (var bullet in _bulletsList)
             {
                 bullet.Update(_bulletsList);
             }
 
-            // TODO: Add your update logic here
+            _ennemyShip.Update(_bulletsList);
 
             base.Update(gameTime);
         }
@@ -63,10 +66,11 @@ namespace Envahisseurs_de_l_espace
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-
-            // TODO: Add your drawing code here
+            
             _spriteBatch.Begin();
-            _ship.Draw(_spriteBatch);
+            _playerShip.Draw(_spriteBatch); 
+            _ennemyShip.Draw(_spriteBatch);
+
             foreach (var bullet in _bulletsList)
             {
                 bullet.Draw(_spriteBatch);
