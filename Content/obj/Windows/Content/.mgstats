@@ -1,1 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/ennemy ship.png","C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/ennemy ship.xnb","TextureProcessor","Texture2DContent",9761,118485,0,1497075
+"C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/player bullet.png","C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/player bullet.xnb","TextureProcessor","Texture2DContent",289,14125,0,0025332
+"C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/player ship.png","C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/player ship.xnb","TextureProcessor","Texture2DContent",10223,123285,0,0051363

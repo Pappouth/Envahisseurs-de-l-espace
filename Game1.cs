@@ -35,13 +35,13 @@ namespace Envahisseurs_de_l_espace
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             
             // PLAYER
-            var playerShipTexture = Content.Load<Texture2D>("spaceship");
-            var playerBulletTexture = Content.Load<Texture2D>("bullet");
+            var playerShipTexture = Content.Load<Texture2D>("player ship");
+            var playerBulletTexture = Content.Load<Texture2D>("player bullet");
             Vector2 playerShipPos = new Vector2(100, 100);
             _playerShip = new Player(playerShipTexture, 5f, playerShipPos, playerBulletTexture);
 
             // ENNEMY
-            var ennemyShipTexture = Content.Load<Texture2D>("ennemy");
+            var ennemyShipTexture = Content.Load<Texture2D>("ennemy ship");
             var ennemyBulletTexture = Content.Load<Texture2D>("ennemy bullet");
             Vector2 ennemyShipPos = new Vector2(200, 200);
             _ennemyShip = new Ennemy(ennemyShipTexture, 5f, ennemyShipPos, ennemyBulletTexture);

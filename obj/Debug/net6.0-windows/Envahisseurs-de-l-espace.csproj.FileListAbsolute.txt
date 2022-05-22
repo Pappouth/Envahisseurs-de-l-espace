@@ -1,6 +1,3 @@
-C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\bullet.xnb
-C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\ship.xnb
-C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\spaceship.xnb
 C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Envahisseurs-de-l-espace.exe
 C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Envahisseurs-de-l-espace.deps.json
 C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Envahisseurs-de-l-espace.runtimeconfig.json
@@ -39,4 +36,6 @@ C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6
 C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.genruntimeconfig.cache
 C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\ref\Envahisseurs-de-l-espace.dll
 C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\ennemy bullet.xnb
-C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\ennemy.xnb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\ennemy ship.xnb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\player bullet.xnb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\player ship.xnb
