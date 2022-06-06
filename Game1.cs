@@ -20,8 +20,11 @@ namespace Envahisseurs_de_l_espace
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
 
-            _graphics.PreferredBackBufferWidth = 1920;
-            _graphics.PreferredBackBufferHeight = 1080;
+            int screenWidth = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Width; 
+            int screenHeight = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Height;
+
+            _graphics.PreferredBackBufferWidth = screenWidth;
+            _graphics.PreferredBackBufferHeight = screenHeight;
             _graphics.IsFullScreen = true;
         }
 
@@ -37,7 +40,7 @@ namespace Envahisseurs_de_l_espace
             // PLAYER
             var playerShipTexture = Content.Load<Texture2D>("player ship");
             var playerBulletTexture = Content.Load<Texture2D>("player bullet");
-            Vector2 playerShipPos = new Vector2(100, 100);
+            Vector2 playerShipPos = new Vector2(_graphics.PreferredBackBufferWidth /2 - 100, _graphics.PreferredBackBufferHeight-200);
             _playerShip = new Player(playerShipTexture, 5f, playerShipPos, playerBulletTexture);
 
             // ENNEMY
