@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/player bullet.png</SourceFile>
+  <SourceFile>C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/player bullet.png</SourceFile>
   <SourceTime>2022-05-13T18:02:53.7633287+02:00</SourceTime>
-  <DestFile>c:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/player bullet.xnb</DestFile>
-  <DestTime>2022-06-06T18:03:11.3118064+02:00</DestTime>
+  <DestFile>C:/Users/lmmns/Bureau/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/player bullet.xnb</DestFile>
+  <DestTime>2022-06-22T15:25:05.4533771+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
