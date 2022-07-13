@@ -1,7 +1,1 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/ennemy bullet.png","C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/bin/Windows/Content/ennemy bullet.xnb","TextureProcessor","Texture2DContent",2673,88789,0,1232559
-"C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/ennemy ship.png","C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/bin/Windows/Content/ennemy ship.xnb","TextureProcessor","Texture2DContent",9761,118485,0,0069446
-"C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/player bullet.png","C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/bin/Windows/Content/player bullet.xnb","TextureProcessor","Texture2DContent",289,14125,0,0046288
-"C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/player ship.png","C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/bin/Windows/Content/player ship.xnb","TextureProcessor","Texture2DContent",10223,123285,0,0083539
-"C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/small player bullet.png","C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/bin/Windows/Content/small player bullet.xnb","TextureProcessor","Texture2DContent",582,6325,0,0047611
-"C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/small player ship.png","C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/bin/Windows/Content/small player ship.xnb","TextureProcessor","Texture2DContent",7389,30885,0,0051154

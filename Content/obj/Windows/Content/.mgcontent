@@ -4,14 +4,18 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/ennemy bullet.png</File>
-    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/ennemy ship.png</File>
-    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/player bullet.png</File>
-    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/player ship.png</File>
-    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/small player bullet.png</File>
-    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace-1/Content/small player ship.png</File>
+    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace/Content/ennemy bullet.png</File>
+    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace/Content/ennemy ship.png</File>
+    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace/Content/player bullet.png</File>
+    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace/Content/player ship.png</File>
+    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace/Content/small player bullet.png</File>
+    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace/Content/small player ship.png</File>
+    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace/Content/Controls/Button.png</File>
+    <File>C:/dev/DOTNET/Envahisseurs-de-l-espace/Content/Fonts/Font.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

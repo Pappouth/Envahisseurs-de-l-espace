@@ -6,16 +6,19 @@ using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using Envahisseurs_de_l_espaEnvahisseurs_de_l_espacece.Controls;
 
-namespace Envahisseurs_de_l_espace.States
+namespace Envahisseurs_de_l_espace
 {
-    public class MenuState : State
+    public class MenuState : States.State
     {
         private List<Component> _components;
 
         public MenuState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content)
           : base(game, graphicsDevice, content)
+        {
+        }
+
+        public override void LoadContent()
         {
             var buttonTexture = _content.Load<Texture2D>("Controls/Button");
             var buttonFont = _content.Load<SpriteFont>("Fonts/Font");
@@ -45,13 +48,12 @@ namespace Envahisseurs_de_l_espace.States
             quitGameButton.Click += QuitGameButton_Click;
 
             _components = new List<Component>()
-      {
-        newGameButton,
-        loadGameButton,
-        quitGameButton,
-      };
+            {
+                newGameButton,
+                loadGameButton,
+                quitGameButton,
+            };
         }
-
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();

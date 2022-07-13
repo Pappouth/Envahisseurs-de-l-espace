@@ -46,3 +46,11 @@ C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6
 C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\small player ship.xnb
 C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\ciel 2.xnb
 C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\ciel.xnb
+C:\dev\DOTNET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.csproj.AssemblyReference.cache
+C:\dev\DOTNET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\DOTNET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.AssemblyInfoInputs.cache
+C:\dev\DOTNET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.AssemblyInfo.cs
+C:\dev\DOTNET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.csproj.CoreCompileInputs.cache
+C:\dev\DOTNET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.dll
+C:\dev\DOTNET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\refint\Envahisseurs-de-l-espace.dll
+C:\dev\DOTNET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.pdb
