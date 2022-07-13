@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -10,31 +6,26 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Envahisseurs_de_l_espace
 {
-    public class GameState : States.State
+    public class GameState: State
     {
-        private GraphicsDeviceManager _graphics;
-        private SpriteBatch _spriteBatch;
-
         private List<Sprite> _spritesList;
 
         private Texture2D _background;
-        public GameState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content)
-          : base(game, graphicsDevice, content)
+        public GameState(Game1 game, ContentManager content): base(game, content)
         {
+
         }
 
         public override void LoadContent()
         {
-            _spriteBatch = new SpriteBatch(GraphicsDevice);
+            _background = _content.Load<Texture2D>("ciel");
 
-            _background = Content.Load<Texture2D>("ciel");
-
-            var playerShipTexture = Content.Load<Texture2D>("player ship");
-            var playerBulletTexture = Content.Load<Texture2D>("small player bullet");
+            var playerShipTexture = _content.Load<Texture2D>("player ship");
+            var playerBulletTexture = _content.Load<Texture2D>("small player bullet");
             var playerBullet = new Bullet(playerBulletTexture);
 
-            var ennemyShipTexture = Content.Load<Texture2D>("ennemy ship");
-            var ennemyBulletTexture = Content.Load<Texture2D>("ennemy bullet");
+            var ennemyShipTexture = _content.Load<Texture2D>("ennemy ship");
+            var ennemyBulletTexture = _content.Load<Texture2D>("small player bullet");
             var ennemyBullet = new Bullet(ennemyBulletTexture);
 
             _spritesList = new List<Sprite>()
@@ -57,22 +48,6 @@ namespace Envahisseurs_de_l_espace
                     CollidingDamages = 10f
                 }
             };
-        }
-
-        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
-        {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
-
-            _spriteBatch.Begin();
-
-            _spriteBatch.Draw(_background, new Vector2(0, 0), Color.White);
-
-            foreach (var sprite in _spritesList)
-                sprite.Draw(gameTime, _spriteBatch);
-
-            _spriteBatch.End();
-
-            base.Draw(gameTime);
         }
 
         public override void PostUpdate(GameTime gameTime)
@@ -116,9 +91,19 @@ namespace Envahisseurs_de_l_espace
             foreach (var sprite in _spritesList)
                 sprite.Update(gameTime);
 
-            PostUpdate();
+            PostUpdate(gameTime);
+        }
 
-            base.Update(gameTime);
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            spriteBatch.Begin();
+
+            spriteBatch.Draw(_background, new Vector2(0, 0), Color.White);
+
+            foreach (var sprite in _spritesList)
+                sprite.Draw(gameTime, spriteBatch);
+
+            spriteBatch.End();
         }
     }
 }

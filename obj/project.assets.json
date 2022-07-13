@@ -7493,24 +7493,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Benoît\\.nuget\\packages\\": {}
+    "C:\\Users\\lmmns\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\DOTNET\\Envahisseurs-de-l-espace\\Envahisseurs-de-l-espace.csproj",
+      "projectUniqueName": "C:\\Users\\lmmns\\Bureau\\Cours yassine\\.NET\\Envahisseurs-de-l-espace\\Envahisseurs-de-l-espace.csproj",
       "projectName": "Envahisseurs-de-l-espace",
-      "projectPath": "C:\\dev\\DOTNET\\Envahisseurs-de-l-espace\\Envahisseurs-de-l-espace.csproj",
-      "packagesPath": "C:\\Users\\Benoît\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\DOTNET\\Envahisseurs-de-l-espace\\obj\\",
+      "projectPath": "C:\\Users\\lmmns\\Bureau\\Cours yassine\\.NET\\Envahisseurs-de-l-espace\\Envahisseurs-de-l-espace.csproj",
+      "packagesPath": "C:\\Users\\lmmns\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lmmns\\Bureau\\Cours yassine\\.NET\\Envahisseurs-de-l-espace\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Benoît\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\lmmns\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7560,7 +7567,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

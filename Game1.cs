@@ -1,8 +1,5 @@
-﻿using System.Collections.Generic;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using MonoGame.Extended.Screens;
-
 
 namespace Envahisseurs_de_l_espace
 {
@@ -10,19 +7,8 @@ namespace Envahisseurs_de_l_espace
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
-        private List<Sprite> _spritesList;
-
-        private Texture2D _background;
-
-        private States.State _currentState;
-
-        private States.State _nextState;
-
-        public void ChangeState(States.State state)
-        {
-            _nextState = state;
-        }
+        private State _currentState;
+        private State _nextState;
 
         public Game1()
         {
@@ -46,9 +32,12 @@ namespace Envahisseurs_de_l_espace
 
         protected override void LoadContent()
         {
-            spriteBatch = new SpriteBatch(GraphicsDevice);
+            _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            _currentState = new MenuState(this, graphics.GraphicsDevice, Content);
+            _currentState = new MenuState(this, Content);
+            _currentState.LoadContent();
+
+            _nextState = null;
         }
 
         protected override void Update(GameTime gameTime)
@@ -56,6 +45,7 @@ namespace Envahisseurs_de_l_espace
             if (_nextState != null)
             {
                 _currentState = _nextState;
+                _currentState.LoadContent();
 
                 _nextState = null;
             }
@@ -67,27 +57,16 @@ namespace Envahisseurs_de_l_espace
             base.Update(gameTime);
         }
 
-        protected void PostUpdate()
+        public void ChangeState(State state)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
-
-            _currentState.Draw(gameTime, spriteBatch);
-
-            base.Draw(gameTime);
+            _nextState = state;
         }
 
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-
-            _spriteBatch.Begin();
-
-            _spriteBatch.Draw(_background, new Vector2(0, 0), Color.White);
-
-            foreach (var sprite in _spritesList)
-                sprite.Draw(gameTime, _spriteBatch);
-
-            _spriteBatch.End();
+            
+            _currentState.Draw(gameTime, _spriteBatch);
 
             base.Draw(gameTime);
         }

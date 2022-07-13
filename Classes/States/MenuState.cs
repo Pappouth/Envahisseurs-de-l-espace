@@ -1,21 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Envahisseurs_de_l_espace.Controls;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace Envahisseurs_de_l_espace
 {
-    public class MenuState : States.State
+    public class MenuState: State
     {
         private List<Component> _components;
 
-        public MenuState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content)
-          : base(game, graphicsDevice, content)
+        public MenuState(Game1 game, ContentManager content): base(game, content)
         {
+            
         }
 
         public override void LoadContent()
@@ -26,31 +24,20 @@ namespace Envahisseurs_de_l_espace
             var newGameButton = new Button(buttonTexture, buttonFont)
             {
                 Position = new Vector2(300, 200),
-                Text = "New Game",
+                Text = "Play"
             };
-
-            newGameButton.Click += NewGameButton_Click;
-
-            var loadGameButton = new Button(buttonTexture, buttonFont)
-            {
-                Position = new Vector2(300, 250),
-                Text = "Load Game",
-            };
-
-            loadGameButton.Click += LoadGameButton_Click;
+            newGameButton.Click += PlayButton_Click;
 
             var quitGameButton = new Button(buttonTexture, buttonFont)
             {
                 Position = new Vector2(300, 300),
                 Text = "Quit Game",
             };
-
             quitGameButton.Click += QuitGameButton_Click;
 
             _components = new List<Component>()
             {
                 newGameButton,
-                loadGameButton,
                 quitGameButton,
             };
         }
@@ -64,30 +51,25 @@ namespace Envahisseurs_de_l_espace
             spriteBatch.End();
         }
 
-        private void LoadGameButton_Click(object sender, EventArgs e)
+        private void PlayButton_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Load Game");
+            _game.ChangeState(new GameState(_game, _content));
         }
 
-        private void NewGameButton_Click(object sender, EventArgs e)
+        private void QuitGameButton_Click(object sender, EventArgs e)
         {
-            _game.ChangeState(new GameState(_game, _graphicsDevice, _content));
+            _game.Exit();
         }
 
         public override void PostUpdate(GameTime gameTime)
         {
-            // remove sprites if they're not needed
+            // supprimer les sprites si inutiles
         }
 
         public override void Update(GameTime gameTime)
         {
             foreach (var component in _components)
                 component.Update(gameTime);
-        }
-
-        private void QuitGameButton_Click(object sender, EventArgs e)
-        {
-            _game.Exit();
         }
     }
 }
