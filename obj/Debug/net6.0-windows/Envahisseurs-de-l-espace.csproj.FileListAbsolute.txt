@@ -1,0 +1,48 @@
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Envahisseurs-de-l-espace.exe
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Envahisseurs-de-l-espace.deps.json
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Envahisseurs-de-l-espace.runtimeconfig.json
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Envahisseurs-de-l-espace.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Envahisseurs-de-l-espace.pdb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\MonoGame.Framework.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\SharpDX.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\SharpDX.Direct3D11.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\SharpDX.MediaFoundation.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\SharpDX.XAudio2.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\SharpDX.XInput.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.csproj.AssemblyReference.cache
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.AssemblyInfoInputs.cache
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.AssemblyInfo.cs
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.csproj.CoreCompileInputs.cache
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.csproj.CopyComplete
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\refint\Envahisseurs-de-l-espace.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.pdb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\Envahisseurs-de-l-espace.genruntimeconfig.cache
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\obj\Debug\net6.0-windows\ref\Envahisseurs-de-l-espace.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\ennemy bullet.xnb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\ennemy ship.xnb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\player bullet.xnb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\player ship.xnb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\MonoGame.Extended.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\MonoGame.Extended.Collisions.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\small player bullet.xnb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\small player ship.xnb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\ciel 2.xnb
+C:\Users\lmmns\Bureau\Cours yassine\.NET\Envahisseurs-de-l-espace\bin\Debug\net6.0-windows\Content\ciel.xnb
