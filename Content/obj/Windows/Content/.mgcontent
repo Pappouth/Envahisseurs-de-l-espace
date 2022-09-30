@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Backgrounds/ciel.jpg</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Backgrounds/commandes 2.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Backgrounds/main menu.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Backgrounds/piste décollage.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Controls/big button.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Controls/blue button.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Controls/button.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Controls/combo.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Controls/life.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Controls/score.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Controls/scores.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Fonts/Font.spritefont</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Overlays/game over.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sounds/click.mp3</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sounds/laser.mp3</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sounds/pew.mp3</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sounds/quantum eraser.mp3</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sounds/t-tauri.mp3</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sprites/ennemy bullet.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sprites/ennemy ship.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sprites/player bullet.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sprites/player ship.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sprites/small ennemy bullet.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sprites/small player bullet.png</File>
+    <File>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sprites/small player ship.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

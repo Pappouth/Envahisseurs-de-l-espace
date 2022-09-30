@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/Sounds/click.mp3</SourceFile>
+  <SourceTime>2022-07-15T02:52:03.7809625+02:00</SourceTime>
+  <DestFile>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/Sounds/click.xnb</DestFile>
+  <DestTime>2022-09-22T14:49:21.0208936+02:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2020-08-10T18:17:54+02:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/lmmns/Bureau/Cours/Cours yassine/.NET/Envahisseurs-de-l-espace/Content/bin/Windows/Content/Sounds/click.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>
